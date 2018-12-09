@@ -1,0 +1,25 @@
+/* Miq Css - by Mostafa Iqbal */
+/* ***** BODY DEFAULT MARGING PADDING **** */
+html, body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+h1 {
+    color:rgb(218,165,32);
+    margin-top: 500px;
+    font-size: 150px;
+}
+
+p {
+    color: rgb(248, 180, 0);
+    font-size: 150px;
+
+}
+
+#p2 {
+    color: rgb(218,165,32);
+    font-size: 150px;
+
+}
