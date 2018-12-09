@@ -3,23 +3,59 @@
 html, body {
     padding: 0;
     margin: 0;
-    background-color: rgb(0, 0, 0);
+    background-color: black;
+}
+/* topbar */
+#topbar {
+    width: 100%;
+    height: 33px;
+    border-bottom: 1px rgb(51, 51, 51) solid;
+    font-size: 12px;
+    color: wheat;
+    text-align: right;    
 }
 
-h1 {
-    color:rgb(218,165,32);
-    margin-top: 500px;
-    font-size: 150px;
+@media only screen and (max-width: 950px) {
+    #topbar{
+        display: none;
+    }
 }
 
-p {
+#topbarEmail {
+    margin-right: 35px;
+}  
+#topbarBook {
+    margin-left: 35px;
+}
+
+.topbarbtn,  #topbarbook {
+    border-radius: 5px;
+    padding: 2px 4px;
+    position: relative;
+    top: -3px;
+}
+.topbarbtn a {
+    color: white;
+    font-size: 12px!important;
+}
+
+#topbarLogin {
+    margin-left: 35px;
+    position: relative;
+    top: 3px;
+}
+
+/* navbar */
+
+.navbar .navbar-brand {
     color: rgb(248, 180, 0);
-    font-size: 150px;
-
 }
 
-#p2 {
-    color: rgb(218,165,32);
-    font-size: 150px;
+.menu {
+    color: rgb(248, 180, 0);
+    margin-left: 30px;
+}
 
+.navbar-toggler-icon {
+    background-color: rgb(248, 180, 0);
 }
