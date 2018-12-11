@@ -1,0 +1,16 @@
+{
+    "host": "160.153.16.39",
+    "username": "nexttransfer@indigoqbal.co.uk",
+    "password": "NextTransfer!!!!!",
+    "remotePath": "",
+    "protocol": "ftp",
+    "port": 0,
+    "fileNameEncoding": "utf8",
+    "autoUpload": true,
+    "autoDelete": false,
+    "autoDownload": false,
+    "ignore": [
+        ".git",
+        "/.vscode"
+    ]
+}
