@@ -1,26 +1,76 @@
 {
   "ftp://160.153.16.39:21@nexttransfer@indigoqbal.co.uk": {
+    ".DS_Store": {
+      "type": "-",
+      "size": 8196,
+      "lmtime": 0,
+      "modified": false
+    },
     ".ftpquota": {
       "type": "-",
       "size": 4,
       "lmtime": 0,
       "modified": false
     },
+    "New folder": {},
     "assets": {},
+    "bk": {},
     "booking.html": {
       "type": "-",
       "size": 274,
       "lmtime": 0,
       "modified": false
     },
-    "cgi-bin": {},
-    "index.html": {
+    "car2.jpg": {
       "type": "-",
-      "size": 4880,
+      "size": 1561623,
       "lmtime": 0,
       "modified": false
     },
-    "photos": {}
+    "car3.jpg": {
+      "type": "-",
+      "size": 1206095,
+      "lmtime": 0,
+      "modified": false
+    },
+    "car4.jpg": {
+      "type": "-",
+      "size": 1642824,
+      "lmtime": 0,
+      "modified": false
+    },
+    "cgi-bin": {},
+    "index.1.html": {
+      "type": "-",
+      "size": 4844,
+      "lmtime": 0,
+      "modified": false
+    },
+    "index.html": {
+      "type": "-",
+      "size": 4879,
+      "lmtime": 0,
+      "modified": true
+    },
+    "miqstyles.css": {
+      "type": "-",
+      "size": 2130,
+      "lmtime": 0,
+      "modified": false
+    },
+    "photos": {},
+    "test.html": {
+      "type": "-",
+      "size": 5113,
+      "lmtime": 0,
+      "modified": false
+    },
+    "text.html": {
+      "type": "-",
+      "size": 5042,
+      "lmtime": 0,
+      "modified": false
+    }
   },
   "$version": 1
 }

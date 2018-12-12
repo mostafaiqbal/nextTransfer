@@ -4,7 +4,10 @@ html, body {
     padding: 0;
     margin: 0;
     background-color: black;
-}
+    background-image: url(car5.jpeg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    }
 /* topbar */
 #topbar {
     width: 100%;
@@ -45,11 +48,19 @@ html, body {
     position: relative;
     top: 3px;
 }
-#mobileLogin {
-    color: wheat;
-    font-size: 90%;
-}
+
 /* navbar */
+@media screen and (min-device-width: 1060px) and (max-device-width: 2600px) {     
+    .navbar {
+        margin-left: 25%;
+     }
+}
+@media screen and (min-device-width: 1000px) and (max-device-width: 1030px) {     
+    .navbar {
+        margin-left: 4%;
+     }
+}
+
 .navbar .navbar-brand {
     color: wheat;
 }
@@ -61,8 +72,15 @@ html, body {
     margin-left: 30px;
 }
 
+#mobileLogin {
+    color: wheat;
+    font-size: 80%;
+    
+}
+
 .navbar-toggler-icon {
     background-color: wheat;
+    font-size: 80%;
 }
 
 /* H1 */
@@ -73,9 +91,15 @@ h1 {
 }
 /*Booking button */
 .btn2 {
-    margin-top: 10%;
+    margin-top: 20%;
     background-color: black;
     border: 1px solid gray; 
+}
+/*Booking mobile margin setup button */
+@media only screen and (max-width: 1026px) {
+    .btn2 {
+        margin-top: 30%;
+    }
 }
 .btn2:hover {
     background-color: gray;
@@ -91,43 +115,50 @@ h1 {
 .delay-2s {
     animation-delay: 3s;
 }
-
-/*car*/
-.car {
-    margin-top: 4%;
+/*Service Section*/
+.service {
+    background-color: gray;
+    border: 2px solid gray;
+    margin-top: 800px;
 }
-.fadeInRight {
-    margin-left: 14%;
-
+#row1 {
+    border-right: 3px solid gray;
+    height: 500px;
+    padding: 60px 30px 30px 30px;
+    background-image: url(../../photos/car3.jpg);
+    font-size: 20px;
+    color: black;
+    text-align: justify;
 }
-
-/* mobile and ipad image animation stop*/
-@media only screen and (max-width: 1026px) {
-    .fadeInRight {
-        display: none;
-    }
+#row2 {
+    height: 500px;
+    padding: 60px 30px 30px 30px;
+    background-image: url(../../photos/car4.jpg);
+    font-size: 20px;
+    color: black;
+    text-align: justify;
 }
-/* desktop image setting */
-@media screen and (min-device-width: 1025px) and (max-device-width: 2600px) {     
-    .mobile {
-        display: none;
-    }
+#row3 {
+    border-right: 3px solid gray;
+    height: 500px;
+    padding: 60px 30px 30px 30px;
+    background-image: url(../../photos/car4.jpg);
+    font-size: 20px;
+    color: black;
+    text-align: justify;
 }
-/* ipad image setting */
-@media screen and (min-device-width: 1000px) and (max-device-width: 1026px) {     
-    .mobile {
-        margin-left: 15%;
-    }
+#row4 {
+    height: 500px;
+    padding: 60px 30px 30px 30px;
+    background-image: url(../../photos/car3.jpg);
+    font-size: 20px;
+    color: black;
+    text-align: justify;
 }
-.delay-1s {
-    animation-delay: 2s;
-}
-
-
 
 /*test css*/
 
 h2 {
-    margin-top: 850px;
+    margin-top: 2000px;
     margin-left: 12%;
 }
