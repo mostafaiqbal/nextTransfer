@@ -117,13 +117,13 @@ h1 {
 }
 /*Service Section*/
 .service {
-    background-color: gray;
+    background-color: black;
     border: 2px solid gray;
     margin-top: 800px;
 }
 #row1 {
     border-right: 3px solid gray;
-    height: 500px;
+    height: 600px;
     padding: 60px 30px 30px 30px;
     background-image: url(../../photos/car3.jpg);
     font-size: 20px;
@@ -131,7 +131,7 @@ h1 {
     text-align: justify;
 }
 #row2 {
-    height: 500px;
+    height: 600px;
     padding: 60px 30px 30px 30px;
     background-image: url(../../photos/car4.jpg);
     font-size: 20px;
@@ -140,7 +140,7 @@ h1 {
 }
 #row3 {
     border-right: 3px solid gray;
-    height: 500px;
+    height: 600px;
     padding: 60px 30px 30px 30px;
     background-image: url(../../photos/car4.jpg);
     font-size: 20px;
@@ -148,17 +148,34 @@ h1 {
     text-align: justify;
 }
 #row4 {
-    height: 500px;
+    height: 600px;
     padding: 60px 30px 30px 30px;
     background-image: url(../../photos/car3.jpg);
     font-size: 20px;
     color: black;
     text-align: justify;
 }
-
+#row5 {
+    border: 1px solid gray;
+    height: 400px;
+    font-size: 20px;
+    color: wheat;
+    text-align: justify;
+}
+#row6 {
+    border-right: 3px solid gray;
+    height: 500px;
+    padding: 60px 30px 30px 30px;
+    font-size: 20px;
+    color: wheat;
+    text-align: justify;
+}
+#row7 {
+    height: 500px;
+    padding: 60px 30px 30px 30px;
+    font-size: 20px;
+    color:wheat;
+    text-align: justify;
+}
 /*test css*/
 
-h2 {
-    margin-top: 2000px;
-    margin-left: 12%;
-}
