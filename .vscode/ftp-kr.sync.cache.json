@@ -1,5 +1,5 @@
 {
-  "ftp://160.153.16.39@nexttransfer@indigoqbal.co.uk": {
+  "ftp://160.153.16.39:21@nexttransfer@indigoqbal.co.uk": {
     ".ftpquota": {
       "type": "-",
       "size": 4,

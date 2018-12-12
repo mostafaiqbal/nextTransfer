@@ -4,7 +4,7 @@
     "password": "NextTransfer!!!!!",
     "remotePath": "",
     "protocol": "ftp",
-    "port": 0,
+    "port": 21,
     "fileNameEncoding": "utf8",
     "autoUpload": true,
     "autoDelete": false,

@@ -1,10 +1,16 @@
 /* Miq Css - by Mostafa Iqbal */
 /* ***** BODY DEFAULT MARGING PADDING **** */
-html, body {
+html {
     padding: 0;
     margin: 0;
-    background-color: black;
 }
+body{
+    background-image: url("car5.jpeg");
+    background-repeat:no-repeat;
+    background-color: black;
+
+  
+ }
 /* topbar */
 #topbar {
     width: 100%;
@@ -95,6 +101,7 @@ h1 {
 /*car*/
 .car {
     margin-top: 4%;
+    display: none;
 }
 .fadeInRight {
     margin-left: 14%;
@@ -128,6 +135,6 @@ h1 {
 /*test css*/
 
 h2 {
-    margin-top: 850px;
+    margin-top: 1850px;
     margin-left: 12%;
 }
