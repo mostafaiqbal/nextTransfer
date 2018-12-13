@@ -48,13 +48,9 @@
     },
     "index.html": {
       "type": "-",
-<<<<<<< HEAD
-      "size": 10994,
-=======
-      "size": 13107,
->>>>>>> 275f6e9fcea193eed3338278f36d7533d8d8ab6d
+      "size": 9296,
       "lmtime": 0,
-      "modified": true
+      "modified": false
     },
     "miqstyles.css": {
       "type": "-",

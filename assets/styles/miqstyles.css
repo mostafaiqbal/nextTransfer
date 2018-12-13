@@ -180,5 +180,18 @@ html, body {
     padding-top: 15px;
 }
 
+/*footer serction*/
+footer {
+    margin-top: 10px;
+    height: 15px;
+    background-color:black;
+    clear:both;
+}
+
+footer ul li {
+    display: inline;
+   padding: 10px;
+}
+
 /*test css*/
 
