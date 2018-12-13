@@ -4,7 +4,7 @@ html, body {
     padding: 0;
     margin: 0;
     background-color: black;
-    background-image: url(car5.jpeg);
+    background-image: url(../../photos/bgimg01.jpeg);
     background-repeat: no-repeat;
     background-size: auto;
     }
@@ -84,11 +84,7 @@ html, body {
 }
 
 /* H1 */
-h1 {
-   color: wheat;
-   text-align: center;
-   margin-top: 75px;
-}
+
 /*Booking button */
 .btn2 {
     margin-top: 20%;
@@ -117,65 +113,72 @@ h1 {
 }
 /*Service Section*/
 .service {
-    background-color: black;
+    background-color: white;
     border: 2px solid gray;
-    margin-top: 800px;
+    margin-top: 600px;
+}
+@media only screen and (max-width: 1026px) {
+    .service {
+        display: none;
+    }
+}
+.rowh1 {
+    text-align: center;
+    padding-top: 80px;
+}
+.rowText {
+    padding: 20px 100px 100px 100px;
+    text-align: justify;
 }
 #row1 {
-    border-right: 3px solid gray;
-    height: 600px;
-    padding: 60px 30px 30px 30px;
-    background-image: url(../../photos/car3.jpg);
-    font-size: 20px;
-    color: black;
-    text-align: justify;
+    height: 500px;
+    border: 1px solid gray;
 }
+
 #row2 {
-    height: 600px;
-    padding: 60px 30px 30px 30px;
-    background-image: url(../../photos/car4.jpg);
-    font-size: 20px;
-    color: black;
-    text-align: justify;
+    height: 500px;
+    border: 1px solid gray;
+    background-image: url(../../photos/bgimg03.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 #row3 {
-    border-right: 3px solid gray;
-    height: 600px;
-    padding: 60px 30px 30px 30px;
-    background-image: url(../../photos/car4.jpg);
-    font-size: 20px;
-    color: black;
-    text-align: justify;
-}
-#row4 {
-    height: 600px;
-    padding: 60px 30px 30px 30px;
-    background-image: url(../../photos/car3.jpg);
-    font-size: 20px;
-    color: black;
-    text-align: justify;
-}
-#row5 {
+    height: 500px;
     border: 1px solid gray;
-    height: 400px;
-    font-size: 20px;
-    color: wheat;
-    text-align: justify;
+    background-image: url(../../photos/bgimg05.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(3px);
+  -webkit-filter: blur(3px);
 }
+
+#row4 {
+    height: 500px;
+    border: 1px solid gray;
+}
+
+#row5 {
+    height: 500px;
+    border: 1px solid gray;
+}
+
 #row6 {
-    border-right: 3px solid gray;
     height: 500px;
-    padding: 60px 30px 30px 30px;
-    font-size: 20px;
-    color: wheat;
-    text-align: justify;
+    border: 1px solid gray;
+    background-image: url(../../photos/bgimg06.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
 }
-#row7 {
-    height: 500px;
-    padding: 60px 30px 30px 30px;
-    font-size: 20px;
-    color:wheat;
-    text-align: justify;
+#fleet {
+    height: 300px;
+    border: 1px solid gray;
+    background-color: black;
 }
+#fleeth {
+    text-align: center;
+    padding-top: 15px;
+}
+
 /*test css*/
 
