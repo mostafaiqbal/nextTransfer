@@ -113,93 +113,72 @@ html, body {
 }
 /*Service Section*/
 .service {
-    background-color: black;
+    background-color: white;
     border: 2px solid gray;
     margin-top: 600px;
 }
-#row1 {
-    border-right: 3px solid gray;
-    height: 600px;
-    background-image: url(../../photos/bgimg03.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    filter: blur(4px);
-    -webkit-filter: blur(4px);  
-    
+@media only screen and (max-width: 1026px) {
+    .service {
+        display: none;
+    }
 }
-.row1text {
-    font-size: 20px;
-    color:white;
-    padding: 20px 80px 80px 80px;
-    text-align: justify;
-    position: relative;
-    top: -500px;  
-    
-}
-.rowh1 {  
+.rowh1 {
     text-align: center;
-    font-size: 140%;    
- }
-
- #row2 {
-    border-right: 3px solid gray;
-    height: 600px;
-    background-image: url(../../photos/bgimg05.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    filter: blur(3px);
-    -webkit-filter: blur(3px);  
-    
+    padding-top: 80px;
 }
-.row2text {
-    font-size: 20px;
-    color:white;
-    padding: 20px 80px 80px 80px;
-    text-align: justify;
-    position: relative;
-    top: -500px;  
-    
-}
-
-
-#row3 {
-    border-right: 3px solid gray;
-    height: 600px;
-    padding: 60px 30px 30px 30px;
-    background-image: url(../../photos/car4.jpg);
-    font-size: 20px;
-    color: black;
+.rowText {
+    padding: 20px 100px 100px 100px;
     text-align: justify;
 }
-#row4 {
-    height: 600px;
-    padding: 60px 30px 30px 30px;
-    background-image: url(../../photos/car3.jpg);
-    font-size: 20px;
-    color: black;
-    text-align: justify;
-}
-#row5 {
+#row1 {
+    height: 500px;
     border: 1px solid gray;
-    height: 400px;
-    font-size: 20px;
-    color: wheat;
-    text-align: justify;
 }
+
+#row2 {
+    height: 500px;
+    border: 1px solid gray;
+    background-image: url(../../photos/bgimg03.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#row3 {
+    height: 500px;
+    border: 1px solid gray;
+    background-image: url(../../photos/bgimg05.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(3px);
+  -webkit-filter: blur(3px);
+}
+
+#row4 {
+    height: 500px;
+    border: 1px solid gray;
+}
+
+#row5 {
+    height: 500px;
+    border: 1px solid gray;
+}
+
 #row6 {
-    border-right: 3px solid gray;
     height: 500px;
-    padding: 60px 30px 30px 30px;
-    font-size: 20px;
-    color: wheat;
-    text-align: justify;
+    border: 1px solid gray;
+    background-image: url(../../photos/bgimg06.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
 }
-#row7 {
-    height: 500px;
-    padding: 60px 30px 30px 30px;
-    font-size: 20px;
-    color:wheat;
-    text-align: justify;
+#fleet {
+    height: 300px;
+    border: 1px solid gray;
+    background-color: black;
 }
+#fleeth {
+    text-align: center;
+    padding-top: 15px;
+}
+
 /*test css*/
 
