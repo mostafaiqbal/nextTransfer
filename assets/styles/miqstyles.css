@@ -4,7 +4,7 @@ html, body {
     padding: 0;
     margin: 0;
     background-color: black;
-    background-image: url(car5.jpeg);
+    background-image: url(../../photos/bgimg01.jpeg);
     background-repeat: no-repeat;
     background-size: auto;
     }
@@ -84,11 +84,7 @@ html, body {
 }
 
 /* H1 */
-h1 {
-   color: wheat;
-   text-align: center;
-   margin-top: 75px;
-}
+
 /*Booking button */
 .btn2 {
     margin-top: 20%;
@@ -119,25 +115,53 @@ h1 {
 .service {
     background-color: black;
     border: 2px solid gray;
-    margin-top: 800px;
+    margin-top: 600px;
 }
 #row1 {
     border-right: 3px solid gray;
     height: 600px;
-    padding: 60px 30px 30px 30px;
-    background-image: url(../../photos/car3.jpg);
-    font-size: 20px;
-    color: black;
-    text-align: justify;
+    background-image: url(../../photos/bgimg03.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(4px);
+    -webkit-filter: blur(4px);  
+    
 }
-#row2 {
+.row1text {
+    font-size: 20px;
+    color:white;
+    padding: 20px 80px 80px 80px;
+    text-align: justify;
+    position: relative;
+    top: -500px;  
+    
+}
+.rowh1 {  
+    text-align: center;
+    font-size: 140%;    
+ }
+
+ #row2 {
+    border-right: 3px solid gray;
     height: 600px;
-    padding: 60px 30px 30px 30px;
-    background-image: url(../../photos/car4.jpg);
-    font-size: 20px;
-    color: black;
-    text-align: justify;
+    background-image: url(../../photos/bgimg05.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);  
+    
 }
+.row2text {
+    font-size: 20px;
+    color:white;
+    padding: 20px 80px 80px 80px;
+    text-align: justify;
+    position: relative;
+    top: -500px;  
+    
+}
+
+
 #row3 {
     border-right: 3px solid gray;
     height: 600px;
