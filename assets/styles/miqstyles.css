@@ -5,6 +5,7 @@ html, body {
     margin: 0;
     background-color: black;
     background-image: url(../../photos/bgimg01.jpeg);
+    background-size: cover;
     background-repeat: no-repeat;
     background-size: auto;
     }
@@ -49,7 +50,7 @@ html, body {
     top: 3px;
 }
 
-/* navbar */
+/* navbar 
 @media screen and (min-device-width: 1060px) and (max-device-width: 2600px) {     
     .navbar {
         margin-left: 25%;
@@ -59,7 +60,7 @@ html, body {
     .navbar {
         margin-left: 4%;
      }
-}
+}*/
 
 .navbar .navbar-brand {
     color: wheat;
@@ -70,6 +71,7 @@ html, body {
     font-size: 20px;
     color: wheat;
     margin-left: 30px;
+    text-align: center;
 }
 
 #mobileLogin {
@@ -114,8 +116,8 @@ html, body {
 /*Service Section*/
 .service {
     background-color: white;
-    border: 2px solid gray;
-    margin-top: 600px;
+    border: 1px solid white;
+    margin-top: 700px;
 }
 @media only screen and (max-width: 1026px) {
     .service {
@@ -191,7 +193,15 @@ footer {
 footer ul li {
     display: inline;
    padding: 10px;
+   color: wheat;
 }
-
+footer ul li a {
+    color: wheat;
+}
+footer ul li a:hover {
+    color: wheat;
+    text-decoration: none;
+    background-color: gray;
+}
 /*test css*/
 

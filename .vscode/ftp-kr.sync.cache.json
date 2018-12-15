@@ -13,14 +13,27 @@
       "modified": false
     },
     "New folder": {},
+    "Web2.config": {
+      "type": "-",
+      "size": 2507,
+      "lmtime": 0,
+      "modified": false
+    },
     "assets": {},
     "bk": {},
     "booking.html": {
       "type": "-",
-      "size": 274,
+      "size": 2510,
+      "lmtime": 0,
+      "modified": true
+    },
+    "bookinginfo.html": {
+      "type": "-",
+      "size": 2510,
       "lmtime": 0,
       "modified": false
     },
+    "bundles": {},
     "car2.jpg": {
       "type": "-",
       "size": 1561623,
@@ -40,6 +53,26 @@
       "modified": false
     },
     "cgi-bin": {},
+    "confirmed.html": {
+      "type": "-",
+      "size": 29302,
+      "lmtime": 0,
+      "modified": false
+    },
+    "dashboard.html": {
+      "type": "-",
+      "size": 2510,
+      "lmtime": 0,
+      "modified": false
+    },
+    "dist": {},
+    "fonts": {},
+    "gulp.json": {
+      "type": "-",
+      "size": 490,
+      "lmtime": 0,
+      "modified": false
+    },
     "index.1.html": {
       "type": "-",
       "size": 4844,
@@ -48,9 +81,9 @@
     },
     "index.html": {
       "type": "-",
-      "size": 9296,
+      "size": 7969,
       "lmtime": 0,
-      "modified": false
+      "modified": true
     },
     "miqstyles.css": {
       "type": "-",
@@ -59,6 +92,12 @@
       "modified": false
     },
     "photos": {},
+    "resetpassword.html": {
+      "type": "-",
+      "size": 2510,
+      "lmtime": 0,
+      "modified": false
+    },
     "test.html": {
       "type": "-",
       "size": 5113,
