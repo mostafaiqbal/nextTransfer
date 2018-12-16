@@ -3,8 +3,8 @@
 html, body {
     padding: 0;
     margin: 0;
-    background-color: black;
-}
+    background-color: black;    
+    }
 /* topbar */
 #topbar {
     width: 100%;
@@ -45,89 +45,88 @@ html, body {
     position: relative;
     top: 3px;
 }
-#mobileLogin {
-    color: wheat;
-    font-size: 90%;
-}
-/* navbar */
+
 .navbar .navbar-brand {
     color: wheat;
 }
 
 .menu {
-    font-family: 'Cinzel Decorative', ; 
+    font-family: 'Cinzel Decorative'; 
     font-size: 20px;
     color: wheat;
     margin-left: 30px;
+    text-align: center;
+}
+
+#mobileLogin {
+    color: wheat;
+    font-size: 80%;
+    
 }
 
 .navbar-toggler-icon {
     background-color: wheat;
+    font-size: 80%;
 }
+/* Top Bar and NAV Ends Here*/
 
-/* H1 */
-h1 {
-   color: wheat;
-   text-align: center;
-   margin-top: 75px;
-}
-/*Booking button */
-.btn2 {
-    margin-top: 10%;
+.serviceBtn {
+    font-size: 25px;
     background-color: black;
     border: 1px solid gray; 
 }
-.btn2:hover {
+.serviceBtn:hover {
     background-color: gray;
+    border: 1px solid black;
 }
-.btn2 a {
-    font-size: 25px;    
+.about {
+    font-family: 'Cormorant', serif;
+    font-size: 20px;
+    color: wheat;
+    text-align: justify;
+}
+#abouth {
+    font-family: 'Cormorant', serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#car3 {
+    margin-top: 55px;
+    margin-bottom: 50px;
+    width: 110%;
+}
+
+.terms {
+    color: gray;
+}
+
+
+/*footer serction*/
+footer {
+    margin-top: 10px;
+    height: 15px;
+    background-color:black;
+    clear:both;
+}
+@media only screen and (max-width: 1026px) {
+    footer {
+    display: none;
+}
+}
+
+footer ul li {
+    display: inline;
+   padding: 10px;
+   color: wheat;
+}
+footer ul li a {
     color: wheat;
 }
-
-.btn2 a:hover {
+footer ul li a:hover {
+    color: wheat;
     text-decoration: none;
+    background-color: gray;
 }
-.delay-2s {
-    animation-delay: 3s;
-}
-
-/*car*/
-.car {
-    margin-top: 4%;
-}
-.fadeInRight {
-    margin-left: 14%;
-
-}
-
-/* mobile and ipad image animation stop*/
-@media only screen and (max-width: 1026px) {
-    .fadeInRight {
-        display: none;
-    }
-}
-/* desktop image setting */
-@media screen and (min-device-width: 1025px) and (max-device-width: 2600px) {     
-    .mobile {
-        display: none;
-    }
-}
-/* ipad image setting */
-@media screen and (min-device-width: 1000px) and (max-device-width: 1026px) {     
-    .mobile {
-        margin-left: 15%;
-    }
-}
-.delay-1s {
-    animation-delay: 2s;
-}
-
-
 
 /*test css*/
-
-h2 {
-    margin-top: 850px;
-    margin-left: 12%;
-}

@@ -12,7 +12,19 @@
       "lmtime": 0,
       "modified": false
     },
+    ".htaccess": {
+      "type": "-",
+      "size": 4946,
+      "lmtime": 0,
+      "modified": false
+    },
     "New folder": {},
+    "README.txt": {
+      "type": "-",
+      "size": 110,
+      "lmtime": 0,
+      "modified": false
+    },
     "Web2.config": {
       "type": "-",
       "size": 2507,
@@ -20,7 +32,6 @@
       "modified": false
     },
     "assets": {},
-    "bk": {},
     "booking.html": {
       "type": "-",
       "size": 2510,
@@ -33,6 +44,7 @@
       "lmtime": 0,
       "modified": false
     },
+    "bundlehtml": {},
     "bundles": {},
     "car2.jpg": {
       "type": "-",
@@ -55,9 +67,9 @@
     "cgi-bin": {},
     "confirmed.html": {
       "type": "-",
-      "size": 29302,
+      "size": 29320,
       "lmtime": 0,
-      "modified": false
+      "modified": true
     },
     "dashboard.html": {
       "type": "-",
@@ -73,15 +85,9 @@
       "lmtime": 0,
       "modified": false
     },
-    "index.1.html": {
-      "type": "-",
-      "size": 4844,
-      "lmtime": 0,
-      "modified": false
-    },
     "index.html": {
       "type": "-",
-      "size": 7969,
+      "size": 8259,
       "lmtime": 0,
       "modified": true
     },
@@ -95,18 +101,6 @@
     "resetpassword.html": {
       "type": "-",
       "size": 2510,
-      "lmtime": 0,
-      "modified": false
-    },
-    "test.html": {
-      "type": "-",
-      "size": 5113,
-      "lmtime": 0,
-      "modified": false
-    },
-    "text.html": {
-      "type": "-",
-      "size": 5042,
       "lmtime": 0,
       "modified": false
     }

@@ -67,7 +67,7 @@ html, body {
 }
 
 .menu {
-    font-family: 'Cinzel Decorative', ; 
+
     font-size: 20px;
     color: wheat;
     margin-left: 30px;
@@ -97,12 +97,13 @@ html, body {
 @media only screen and (max-width: 1026px) {
     .btn2 {
         margin-top: 30%;
-    }
+}
 }
 .btn2:hover {
     background-color: gray;
+    border: 1px solid black;
 }
-.btn2 a {
+.bookOnline {
     font-size: 25px;    
     color: wheat;
 }
@@ -111,7 +112,7 @@ html, body {
     text-decoration: none;
 }
 .delay-2s {
-    animation-delay: 3s;
+    animation-delay: 2s;
 }
 /*Service Section*/
 .service {
@@ -124,9 +125,13 @@ html, body {
         display: none;
     }
 }
+.serviceBtn {
+    background-color: black;
+    border: 1px solid gray; 
+}
 .rowh1 {
     text-align: center;
-    padding-top: 80px;
+    padding-top: 50px;
 }
 .rowText {
     padding: 20px 100px 100px 100px;
@@ -172,14 +177,27 @@ html, body {
     background-repeat: no-repeat;
    
 }
-#fleet {
-    height: 300px;
+#row7 {
+    height: 500px;
     border: 1px solid gray;
-    background-color: black;
 }
-#fleeth {
+
+#row8 {
+    height: 500px;
+    border: 1px solid gray;
+}
+/*Contact Form */
+form {
+    padding:20px 60px 10px 60px;
+}
+.h3style {
     text-align: center;
-    padding-top: 15px;
+    padding-top: 30px;
+}
+#submit {
+   float: right;
+   background-color: black;
+   border: 1px solid gray;
 }
 
 /*footer serction*/
@@ -188,6 +206,11 @@ footer {
     height: 15px;
     background-color:black;
     clear:both;
+}
+@media only screen and (max-width: 1026px) {
+    footer {
+    display: none;
+}
 }
 
 footer ul li {
@@ -203,5 +226,5 @@ footer ul li a:hover {
     text-decoration: none;
     background-color: gray;
 }
-/*test css*/
 
+/*test css*/
