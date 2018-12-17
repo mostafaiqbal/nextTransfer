@@ -4,10 +4,6 @@ html, body {
     padding: 0;
     margin: 0;
     background-color: black;
-    background-image: url(../../photos/bgimg01.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-size: auto;
     }
 /* topbar */
 #topbar {
@@ -118,7 +114,7 @@ html, body {
 .service {
     background-color: white;
     border: 1px solid white;
-    margin-top: 700px;
+    
 }
 @media only screen and (max-width: 1026px) {
     .service {
@@ -145,17 +141,18 @@ html, body {
 #row2 {
     height: 500px;
     border: 1px solid gray;
-    background-image: url(../../photos/simg02.jpeg);
+    background-image: url(../../photos/bgimg03.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 #row3 {
     height: 500px;
     border: 1px solid gray;
-    background-image: url(../../photos/simg01.jpg);
+    background-image: url(../../photos/bgimg05.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-  
+    filter: blur(3px);
+  -webkit-filter: blur(3px);
 }
 
 #row4 {
@@ -201,8 +198,7 @@ form {
 
 /*footer serction*/
 footer {
-    margin-top: 10px;
-    height: 15px;
+    height: 55px;
     background-color:black;
     clear:both;
 }

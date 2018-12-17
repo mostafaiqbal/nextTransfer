@@ -14,9 +14,9 @@
     },
     ".htaccess": {
       "type": "-",
-      "size": 4946,
+      "size": 4953,
       "lmtime": 0,
-      "modified": false
+      "modified": true
     },
     "New folder": {},
     "README.txt": {
@@ -30,6 +30,12 @@
       "size": 2507,
       "lmtime": 0,
       "modified": false
+    },
+    "about.html": {
+      "type": "-",
+      "size": 6500,
+      "lmtime": 0,
+      "modified": true
     },
     "assets": {},
     "booking.html": {
@@ -71,6 +77,24 @@
       "lmtime": 0,
       "modified": true
     },
+    "contact.php": {
+      "type": "-",
+      "size": 3679,
+      "lmtime": 0,
+      "modified": false
+    },
+    "contactus.php": {
+      "type": "-",
+      "size": 1282,
+      "lmtime": 0,
+      "modified": false
+    },
+    "corporate.html": {
+      "type": "-",
+      "size": 6500,
+      "lmtime": 0,
+      "modified": true
+    },
     "dashboard.html": {
       "type": "-",
       "size": 2510,
@@ -78,6 +102,12 @@
       "modified": false
     },
     "dist": {},
+    "error_log": {
+      "type": "-",
+      "size": 7872,
+      "lmtime": 0,
+      "modified": true
+    },
     "fonts": {},
     "gulp.json": {
       "type": "-",
@@ -85,24 +115,48 @@
       "lmtime": 0,
       "modified": false
     },
-    "index.html": {
+    "index.1.php": {
       "type": "-",
-      "size": 8259,
-      "lmtime": 0,
-      "modified": true
-    },
-    "miqstyles.css": {
-      "type": "-",
-      "size": 2130,
+      "size": 13174,
       "lmtime": 0,
       "modified": false
     },
+    "index.php": {
+      "type": "-",
+      "size": 13125,
+      "lmtime": 0,
+      "modified": true
+    },
     "photos": {},
+    "privacy.html": {
+      "type": "-",
+      "size": 28184,
+      "lmtime": 0,
+      "modified": false
+    },
     "resetpassword.html": {
       "type": "-",
       "size": 2510,
       "lmtime": 0,
       "modified": false
+    },
+    "service.html": {
+      "type": "-",
+      "size": 8653,
+      "lmtime": 0,
+      "modified": false
+    },
+    "terms.1.html": {
+      "type": "-",
+      "size": 31063,
+      "lmtime": 0,
+      "modified": false
+    },
+    "terms.html": {
+      "type": "-",
+      "size": 31029,
+      "lmtime": 0,
+      "modified": true
     }
   },
   "$version": 1
