@@ -268,3 +268,9 @@ footer ul li a:hover {
         font-size: 15px;
     }
 }
+
+
+.logIcon {
+    text-decoration: none;
+    color: wheat;
+}

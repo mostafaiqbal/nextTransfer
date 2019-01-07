@@ -51,7 +51,7 @@ html, body {
 }
 
 .menu {
-    font-family: 'Cinzel Decorative'; 
+   
     font-size: 20px;
     color: wheat;
     margin-left: 30px;
@@ -79,6 +79,8 @@ html, body {
     background-color: gray;
     border: 1px solid black;
 }
+
+/*Contact*/
 .about {
     font-family: 'Cormorant', serif;
     font-size: 20px;
@@ -96,14 +98,28 @@ html, body {
     margin-bottom: 50px;
     width: 110%;
 }
-
+/*Terms and Conditions*/
 .terms {
     color: gray;
 }
 
+/*Contact Page*/
+#cdetails {
+    font-size: 20px;
+    margin-left: 65px;
+    margin-top: 50px;
+}
+
+#cEmail, #cPhone {
+    margin-bottom: 10px;
+}
+
+
+
+
 
 /*footer serction*/
-footer {
+.cfooter {
     margin-top: 10px;
     height: 15px;
     background-color:black;

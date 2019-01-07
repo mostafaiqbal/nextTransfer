@@ -19,6 +19,16 @@
     <link rel="stylesheet" type="text/css" href="assets/styles/animate.css">
      <!-- MiQ iNNOV@TiON styel sheet -->
     <link rel="stylesheet" type="text/css" href="assets/styles/miqstyles.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129306277-2"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-129306277-2');
+        </script>
+    <!-- Google Script Ends Here -->
   </head>
   
 <body>
@@ -26,7 +36,9 @@
     <div class="container">
       <span id="topbarEmail"> <i class="faEmail fas fa-envelope-square"></i> booking@nexttransfer.co.uk</span>
       <span id="topbarPhone"> <i class="faPhone fas fa-phone"></i> +4420 8168 9168 </span>
-      <span id="topbarLogin"> <i class="far fa-user fa-2x"> </i> &nbsp; Log In</span>
+      <a class="logIcon" href="https://www.nexttransfer.co.uk/booking.html">
+        <span id="topbarLogin"> <i class="far fa-user fa-2x"> </i> &nbsp; Log In</span>
+     </a>
       <span id="topbarBook"> <button type="button" class="topbarbtn btn btn-primary .btn-group-justified"> <a href="https://nexttransfer.co.uk/booking.html"></a> Book Online </a> </button> </span>      
     </div> 
   </div>
@@ -35,7 +47,9 @@
   <div id="navWrap" class="container-fluid sticky-top">
   <nav class="navbar navbar-expand-lg navbar-light sticky-top container">
       <a class="navbar-brand" href="https://www.nexttransfer.co.uk">nexTransfer</a>
-      <span id="mobileLogin" class="navbar-toggler"> <i class="far fa-user fa-2x"> </i></span>
+      <a class="logIcon" href="https://www.nexttransfer.co.uk/booking.html">
+        <span id="mobileLogin" class="navbar-toggler"> <i class="far fa-user fa-2x"> </i></span>
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -138,17 +152,7 @@
             </form>
         
 
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous">
-        </script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-            crossorigin="anonymous">
-        </script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-            crossorigin="anonymous">
-        </script>   --> 
+        
 
         <script type="text/javascript">
 

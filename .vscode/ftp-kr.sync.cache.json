@@ -8,7 +8,7 @@
     },
     ".ftpquota": {
       "type": "-",
-      "size": 4,
+      "size": 13,
       "lmtime": 0,
       "modified": false
     },
@@ -16,7 +16,7 @@
       "type": "-",
       "size": 4953,
       "lmtime": 0,
-      "modified": true
+      "modified": false
     },
     "New folder": {},
     "README.txt": {
@@ -33,16 +33,22 @@
     },
     "about.html": {
       "type": "-",
-      "size": 6500,
+      "size": 6503,
       "lmtime": 0,
-      "modified": true
+      "modified": false
+    },
+    "app.main.js": {
+      "type": "-",
+      "size": 1385848,
+      "lmtime": 0,
+      "modified": false
     },
     "assets": {},
     "booking.html": {
       "type": "-",
-      "size": 2510,
+      "size": 2546,
       "lmtime": 0,
-      "modified": true
+      "modified": false
     },
     "bookinginfo.html": {
       "type": "-",
@@ -75,7 +81,7 @@
       "type": "-",
       "size": 29320,
       "lmtime": 0,
-      "modified": true
+      "modified": false
     },
     "contact.php": {
       "type": "-",
@@ -91,9 +97,9 @@
     },
     "corporate.html": {
       "type": "-",
-      "size": 6500,
+      "size": 6503,
       "lmtime": 0,
-      "modified": true
+      "modified": false
     },
     "dashboard.html": {
       "type": "-",
@@ -102,11 +108,17 @@
       "modified": false
     },
     "dist": {},
+    "dist.zip": {
+      "type": "-",
+      "size": 500940,
+      "lmtime": 0,
+      "modified": false
+    },
     "error_log": {
       "type": "-",
-      "size": 7872,
+      "size": 8436,
       "lmtime": 0,
-      "modified": true
+      "modified": false
     },
     "fonts": {},
     "gulp.json": {
@@ -115,22 +127,22 @@
       "lmtime": 0,
       "modified": false
     },
-    "index.1.php": {
-      "type": "-",
-      "size": 13174,
-      "lmtime": 0,
-      "modified": false
-    },
     "index.php": {
       "type": "-",
-      "size": 13125,
+      "size": 12765,
       "lmtime": 0,
       "modified": true
+    },
+    "marblecars.rar": {
+      "type": "-",
+      "size": 13458571,
+      "lmtime": 0,
+      "modified": false
     },
     "photos": {},
     "privacy.html": {
       "type": "-",
-      "size": 28184,
+      "size": 28187,
       "lmtime": 0,
       "modified": false
     },
@@ -142,13 +154,7 @@
     },
     "service.html": {
       "type": "-",
-      "size": 8653,
-      "lmtime": 0,
-      "modified": false
-    },
-    "terms.1.html": {
-      "type": "-",
-      "size": 31063,
+      "size": 9013,
       "lmtime": 0,
       "modified": false
     },
@@ -156,7 +162,7 @@
       "type": "-",
       "size": 31029,
       "lmtime": 0,
-      "modified": true
+      "modified": false
     }
   },
   "$version": 1
